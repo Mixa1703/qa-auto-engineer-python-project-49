@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "brain-games",
+    "qa-auto-engineer-python-project-49",
+]
+
+[[package]]
+name = "brain-games"
+version = "0.1.0"
+source = { virtual = "brain_games" }
+
+[[package]]
+name = "qa-auto-engineer-python-project-49"
+version = "0.1.0"
+source = { editable = "." }
