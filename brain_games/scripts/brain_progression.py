@@ -4,7 +4,7 @@ from brain_games.games import progression
 
 def main():
     run_game(progression.RULE, progression.generate_round)
-    
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

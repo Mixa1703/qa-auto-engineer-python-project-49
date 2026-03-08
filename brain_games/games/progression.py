@@ -1,6 +1,6 @@
 import random
 
-RULE = 'What number is missing in the progression?'
+RULE = "What number is missing in the progression?"
 
 
 def generate_round():
@@ -16,10 +16,19 @@ def generate_round():
     number9 = number8 + progress
     number10 = number9 + progress
     numbers_list = [
-    number1, number2, number3, number4, number5,
-    number6, number7, number8, number9, number10]
-    hidden_index = random.randint(0, len(numbers_list) - 1)  
-    correct_answer = numbers_list[hidden_index]              
-    numbers_list[hidden_index] = '..'                       
-    question = ' '.join(map(str, numbers_list))
+        number1,
+        number2,
+        number3,
+        number4,
+        number5,
+        number6,
+        number7,
+        number8,
+        number9,
+        number10,
+    ]
+    hidden_index = random.randint(0, len(numbers_list) - 1)
+    correct_answer = numbers_list[hidden_index]
+    numbers_list[hidden_index] = ".."
+    question = " ".join(map(str, numbers_list))
     return question, correct_answer
