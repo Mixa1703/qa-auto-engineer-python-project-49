@@ -6,3 +6,18 @@
 [![asciicast](https://asciinema.org/a/Ut2nhOd4pEHtb4G1.svg)](https://asciinema.org/a/Ut2nhOd4pEHtb4G1)
 [![asciicast](https://asciinema.org/a/pwCRIVxx6dE9Wmu1.svg)](https://asciinema.org/a/pwCRIVxx6dE9Wmu1)
 [![asciicast](https://asciinema.org/a/0J1pwwFKxabVWFIH.svg)](https://asciinema.org/a/0J1pwwFKxabVWFIH)
+Links
+This project was built using these tools:
+
+Tool	Description
+uv	"An extremely fast Python package and project manager, written in Rust"
+Pytest	"A mature full-featured Python testing tool"
+ruff	"An extremely fast Python linter and code formatter, written in Rust"
+Setup
+make install
+Examples
+uv run hexlet-python-package 5
+
+2.5
+Run tests
+make test
